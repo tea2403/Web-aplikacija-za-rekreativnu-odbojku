@@ -1,0 +1,54 @@
+.kartice{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 45px;
+    width: 80vw;
+    height: 85vh;
+    margin-top: 5%;
+}
+
+.kartica{
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    padding: 4%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 2);
+    border: #e9e50a 5px solid;
+    cursor: pointer;
+}
+
+.karticaNaslov{
+    font-size: 40px;
+    font-weight: 500;
+    color: #000cf2;
+    background-color:  rgba(255, 255, 255, 0.731);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: 3px #000cf2 solid;
+    min-width: 17vw;
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+@media only screen and (max-width: 768px) {
+    .kartice{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        margin-top: 25%;
+        height: auto;
+    }
+
+    .kartice > div{
+        min-height: 20vh;
+    }
+
+    .karticaNaslov{
+        font-size: 20px;
+        min-width: 35vw;
+    }
+}

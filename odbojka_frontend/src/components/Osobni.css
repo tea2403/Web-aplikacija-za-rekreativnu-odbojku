@@ -1,0 +1,90 @@
+.osobni_glavni{
+    background-color: rgba(255, 255, 255, 0.68);
+    display: grid;
+    text-align: start;
+    width: 25vw;
+    min-height: 35vh;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 4px #e9e50a solid;
+    margin-top: 8vh;
+    border-radius: 7px;
+    width: 30vw;
+    align-items: end;
+}
+
+.osobni_form > input:nth-child(-n+6){
+    margin-bottom: 8%;
+    height: 1.5rem;
+    width: 100%;
+}
+
+.osobni_form > select{
+    margin-bottom: 8%;
+    height: 1.5rem;
+    width: 102%;
+}
+
+.profilna{
+    width: 15%;
+}
+
+.osobni_form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    font-size: large;
+}
+
+.osobni-submit{
+    color: white;
+    background-color: #000cf2;
+    align-self: flex-end;
+    margin-top: 5px;
+}
+
+.osobni-submit:hover {
+    color: #000cf2;
+    background-color: white; 
+}
+
+.kruzic-prav{
+    border: 4px #e9e50a solid;
+    background-color: rgba(255, 255, 255, 0.68);
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 7px;
+    font-size: larger;
+}
+
+.kruzic{
+    border: 2px #213547 solid;
+    border-radius: 100%;
+    width: 29px;
+    margin-right: 10px;
+    color: #213547;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .osobni_glavni {
+        width: 83vw;
+        height: auto;
+        min-height: 35vh;
+        padding: 1rem;
+    }
+    .osobni_form > input {
+        height: 1.5rem;
+        width: 100%;
+    }
+    .osobni_form{
+        font-size: medium;
+    }
+    .osobni_form > select{
+        width: 103%;
+    }
+}

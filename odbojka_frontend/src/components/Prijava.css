@@ -1,0 +1,95 @@
+#root{
+    margin:0 auto;
+}
+.prijava-red {
+    text-align: start;
+    margin-bottom: 2.5%;
+}
+
+.prijava-submit {  
+    color: white;
+    background-color: #000cf281;
+    width: 45%;
+}
+.prijava-submit:hover {
+    color: #000cf2;
+    background-color: white; 
+}
+.dr{
+    background-color: #000cf2;
+}
+.prijava-glavni {
+    border: 3px #000cf2 solid;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 20vw;
+    height: 35vh;
+    background-color: #ffffffd4;
+    color: #000cf2;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.prijava-glavni > h2{
+    margin:0;
+    margin-bottom: 5%;
+}
+
+.prijava-form {
+    display: grid;
+    text-align: start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.prijava-form > input {
+    margin-bottom: 8%;
+    height: 60%;
+    width: 100%;
+}
+
+.pozadina-pocetna {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("..\..\images\pexels-kampus-production-6180458.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.75;
+    background-color: azure;
+  }
+
+  .gumbi{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+@media only screen and (max-width: 768px) {
+    .prijava-form {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .prijava-glavni {
+        width: 45vw;
+        height: auto;
+        min-height: 35vh;
+    }
+    .prijava-form > input {
+        height: 75%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .gumbi{
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    .prijava-submit {
+        width: 90%;
+        margin: 2%;
+        font-size: 0.8rem;
+    }
+  }

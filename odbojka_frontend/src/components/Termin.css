@@ -1,0 +1,27 @@
+.okvir > .klub> div > input{
+    width: 98%;
+    box-sizing: border-box;
+}
+
+.sati{
+    padding: 5px;
+}
+
+.cijena{
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.okvir{
+    margin-top: 10px;
+    border: 2px solid yellow;
+    display: flex;
+    padding: 3px;
+}
+
+#dodajTermin{
+    margin-top: 5px;
+    align-self: center;
+}

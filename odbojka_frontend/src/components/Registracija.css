@@ -1,0 +1,25 @@
+.prijava-glavni-reg{
+    border: 3px #000cf2 solid;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 20vw;
+    height: 68vh;
+    background-color: #ffffffd4;
+    color: #000cf2;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.error:not(:empty){
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: #f9e219b5;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 768px) {
+    .prijava-glavni-reg{
+        width: 55vw;
+        min-height: 63vh;
+        height: auto;
+  }
+}

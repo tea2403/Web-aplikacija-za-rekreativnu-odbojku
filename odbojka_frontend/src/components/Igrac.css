@@ -1,0 +1,100 @@
+.igrac{
+    background-color: rgba(255, 255, 255, 0.68);
+    display: grid;
+    text-align: start;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 4px #e9e50a solid;
+    border-top: 0cm;
+    max-width: 1280px;
+    width: 30vw;
+}
+
+.osobni_form > input[type="date"] {
+    margin-bottom: 0%;
+    height: 1.5rem;
+    width: 101.33%;
+}
+
+.osobni_form > input[type="number"] {
+    margin-bottom: 0%;
+    width: 100%
+}
+
+.osobni_form > label{
+    width: 100%;
+}
+
+.osobni_form > span{
+    margin-bottom: 8%;
+}
+.klub > input{
+    margin-bottom: 0%;
+    height: 1.5rem;
+    width: 94%;
+}
+.klub > select{
+    margin-bottom: 4%;
+    height: 1.5rem;
+    width: 97.5%;
+}
+.klub{
+    flex-grow: 2;
+    max-width: 85%;
+}
+.klubovi{
+    display: flex;
+    align-items: center;
+    border: 1.5px #000cf2 solid;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 4px;
+    width: 99%;
+}
+.makniKlub{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    color: white;
+    background-color: #6761de;
+    margin-left: 4px;
+    padding-bottom: 4px;
+}
+.trajanjeKlub{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trajanjeKlub > input{
+    margin-bottom: 0%;
+    height: 1.5rem;
+    width: 32%;
+}
+.dodajKlub{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    padding-bottom: 2px;
+    background-color: white;
+    border: #000cf281 2px solid;
+    color: #000cf281;
+    align-self: center;
+    margin-top: 3px;
+}
+@media only screen and (max-width: 768px) {
+    .igrac {
+        padding: 1rem;
+        width: 83vw;
+    }
+    .klub > select{
+        width: 100%;
+    }
+    .klub > input{
+        width: 95.5%;
+    }
+    .makniKlub{
+        height: 8vw;
+    }
+}

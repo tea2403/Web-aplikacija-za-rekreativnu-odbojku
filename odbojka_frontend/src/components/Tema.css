@@ -1,0 +1,56 @@
+.naslovteme{
+    display: flex;
+    color: #e9e50a;
+    margin-bottom: -20px;
+    left: -4vw;
+    position: relative;
+}
+.poruke{
+    top: 5vh;
+    position: relative;
+    left: -4vw;
+}
+
+#iks{
+    margin-bottom: -25px;
+}
+
+.poruke > div{
+    background-color: rgba(255, 255, 255, 0.591);
+    width: 45vw;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.poruke > div > div {
+    align-self: flex-end;
+    font-size: x-large;
+    cursor: pointer;
+}
+.poruke > div > p{
+    margin: 0px;
+    font-size: small;
+}
+.zvono{
+    cursor: pointer;
+}
+#napisi{
+    box-shadow: 0 0 30px rgba(255, 255, 0, 2);
+    color: #fffb00;
+    background-color: #000cf2;
+    position: relative;
+    margin-top: 7px;
+}
+#poruka{
+    height: 30%;
+}
+@media only screen and (max-width: 768px) {
+    .poruke > div{
+        width: 70vw;
+    }
+}

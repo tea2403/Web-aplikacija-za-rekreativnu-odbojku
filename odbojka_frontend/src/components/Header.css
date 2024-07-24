@@ -1,0 +1,101 @@
+.Header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+
+#odjava{
+    color: white;
+    background-color: #000cf2;
+}
+
+#uredi{
+    border: #000cf2 solid 1.5px;
+    font-weight: 600;
+    color: #000cf2;
+}
+
+.izbornik button {
+    color: #000cf281;
+    background-color: #ffffff;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 0.85rem;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.slika-profila{
+    width: 45px;
+    height: 45px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.home{
+    height: 40px;
+    margin-left: 6px;
+}
+
+.slika-profila2{
+    width: 85px;
+    height: 85px;
+    margin-right: 2px;
+}
+
+.centriraj{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.aktivnosti{
+    margin-left: auto;
+    margin-right: 14px;
+    font-size: large;
+    cursor: pointer;
+    color: #e9e50a;
+}
+
+.izbornik{
+    top: 8%;
+    right: 1%;
+    position: absolute;
+    background-color: white;
+    padding: 1%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    width: 13vw;
+    position: fixed;
+    border: 2px solid #000cf2;
+    z-index: 2;
+}
+@media only screen and (max-width: 768px) {
+    .izbornik button {
+        font-size: 0.85rem;
+    }
+    .izbornik{
+        width: 60vw;
+        padding: 2%;
+    }
+    .slika-profila{
+        width: 40px;
+        height: 40px;
+    }
+    .aktivnosti{
+        margin-left: auto;
+        margin-right: 4px;
+        font-size: medium;
+    }
+    .home{
+        height: 35px;
+        margin-left: 6px;
+    }
+}
+

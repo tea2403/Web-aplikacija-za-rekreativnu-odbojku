@@ -1,0 +1,66 @@
+.prijava-reg {
+    display: flex;
+    margin: 5%;
+    justify-content: space-evenly;
+}
+.naslov{
+    font-size: 2rem;
+}
+.prijava-reg > div {
+    border: 3px #000cf2 solid;
+    border-radius: 15px;
+    padding: 2%;
+    background-color: #ffffffd4;
+    font-size: 1.3rem;
+    width: 25%;
+    position: relative;
+}
+
+.prijava-reg a {
+    color: #000cf2;
+}
+
+.lopta {
+    position: absolute;
+    bottom: -16px;
+    left: -19px;
+    width: 60px;
+    height: 60px;
+}
+.mreza {
+    position: absolute;
+    right:0%;
+    bottom:1%;
+    width: 14%;
+    height: 98%;
+}
+.pocetna{
+    background-color: #ffffffd4;
+    width: 75vw;
+    padding: 2rem;
+    border-radius: 20px;
+    position: relative;
+    border: 4px #e9e50a solid;
+}
+
+@media only screen and (max-width: 768px) {
+    .prijava-reg > div {
+        width: 35%;
+    }
+    .pocetna{
+        background-color: #ffffffd4;
+        width: 65vw;
+        padding: 2rem;
+        border-radius: 20px;
+    }
+    .prijava-reg > div {
+        font-size: 1rem;
+    }
+    .lopta {
+        width: 50px;
+        height: 50px;
+    }
+    .mreza{
+        width:0
+    }
+}

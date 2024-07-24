@@ -1,0 +1,135 @@
+.termin{
+    background-color: rgba(255, 255, 255, 0.68);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 40vw;
+    text-align: start;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+#termini{
+    display: flex;
+    flex-wrap: wrap;
+    top: 18vh;
+    left: 30vw;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+}
+.termin> p{
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.termin> a{
+    margin-top: 6px;
+    padding: 2px;
+}
+#izborMjesto{
+    top: 10vh;
+    left: 10vw;
+    position: absolute;
+    height: 44px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(255, 255, 0, 2);
+    color: #fffb00;
+    background-color: #000cf2;
+}
+#izborMjesto > option{
+    left: 10vw;
+    position: absolute;
+    height: 44px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(255, 255, 0, 2);
+    color: #fffb00;
+}
+#izborTima{
+    height: 44px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(255, 255, 0, 2);
+    color: blue;
+    margin-top: 10px;
+    font-size: small;
+}
+.cijelaG{
+    background-color: #2d35dc;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    box-shadow: 0 0 30px rgba(255, 255, 0, 2);
+    color: #ffe600;
+    left: -15%;
+    transform: none;
+}
+.galerija{
+    display: flex;
+    width: 50vw;
+    flex-wrap: wrap;
+}
+.galerija > img {
+    width: 32%;
+    margin: 5px;
+    max-height: 45%;
+}
+.dan{
+    margin: 0px;
+    color: #fffb00;
+    text-align: start;
+}
+#podebljano{
+    text-align: center;
+}
+#podebljano > b {
+    font-size: x-large;
+}
+#rezerviraj{
+    align-self: flex-end;
+    margin-top: 10px;
+    width: 120px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+    .termin {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #termini{
+        left: 5vw;
+        width: 90vw;
+    }
+    .galerija{
+        width: 80vw;
+    }
+    .galerija > img {
+        width: 93%;
+    }
+    .cijelaG{
+        width: 90%;
+        left: 0%;
+    }
+    .dan{
+        text-align: center;
+    }
+    #podebljano{
+        font-size: small;
+    }
+    #podebljano > b{
+        font-size: medium;
+    }
+}

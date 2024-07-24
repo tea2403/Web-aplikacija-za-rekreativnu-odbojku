@@ -1,0 +1,128 @@
+.sviTimovi{
+    top: 10vh;
+    left: 10vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+.mojiTimovi{
+    display: flex;
+    color: #e9e50a;
+}
+#timovi{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.igracRed > p{
+    margin-top: 6px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+#dodajIgraca{
+    margin-top: 5px;
+    width: 40%;
+    align-self: center;
+}
+#noviTim{
+    width: 15%
+}
+.tim {
+    background-color: rgba(255, 255, 255, 0.68);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 20%;
+    text-align: start;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.noviIgrac{
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+}
+.noviIgrac > button{
+    height: 5vh;
+    width: 40%;
+    padding: 0px;
+    color: #ccc;
+    background-color: blue;
+    margin-top: 5px;
+}
+.noviIgrac > input{
+    height: 3vh;
+    margin-right: 3px;
+}
+.igracRed{
+    display: flex;
+    justify-content: space-between;
+    height: 4vh;
+    margin-bottom: 10px;
+}
+.igracRed > button {
+    background-color: transparent;
+    border: 1px solid blue;
+    padding: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: blue;
+    font-weight: 800;
+}
+.pagination2 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.pagination2 li a {
+    cursor: pointer;
+    padding: 8px 16px;
+    color: #ffe600;
+    border: none;
+  }
+@media only screen and (max-width: 768px) {
+    .sviTimovi{
+        left: 10vw;
+    }
+
+    .tim {
+        width: 92%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #noviTim{
+        width: 50%
+    }
+    .tim > button{
+        width: 60%;
+    }
+    .noviIgrac{
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    .noviIgrac > button{
+        padding: 2px;
+        align-self: center;
+    }
+    .noviIgrac > input{
+        height: 3vh;
+    }
+    .igracRed > button {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .igracRed > p{
+        margin-top: 4px;
+    }
+}
